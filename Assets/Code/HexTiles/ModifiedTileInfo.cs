@@ -23,7 +23,7 @@ namespace HexTiles
             Modified
         }
 
-        public ModifiedTileInfo(HexChunk chunk, ChunkOperation operation) 
+        public ModifiedTileInfo(HexChunk chunk, ChunkOperation operation) : this()
         {
             Chunk = chunk;
             Operation = operation;
